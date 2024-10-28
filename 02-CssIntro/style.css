@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing: border-box; */
+}
+
+/* div {
+  background-color: red;
+} */
+
+/* div#header {
+  background-color: purple;
+}
+
+#header {
+  background-color: red;
+}
+.main {
+  background-color: green;
+}
+div {
+  background-color: yellow !important;
+} */
+
+/* div {
+  background-color: red;
+  h3 {
+    background-color: yellow;
+  }
+}
+
+.header {
+  .main {
+  }
+} */
+
+.cityName {
+  color: red;
+  background-color: yellow;
+  font-size: 40px;
+  border: 2px solid red;
+  /* display: inline-block; */
+  line-height: 80px;
+  /* letter-spacing: -6px; */
+  text-align: center;
+  text-align: right;
+}
+
+.box {
+  background-color: gray;
+  /* height: 150px; */
+  /* width: 150px; */
+  /* margin: 50px; */
+  /* margin-top: 50px; */
+  /* margin-right: ; */
+  /* margin-bottom: 50px; */
+  /* margin-left: 50px; */
+
+  /* margin: 50px 100px 150px 200px; */
+  display: inline-block;
+  border: 10px solid purple;
+  /* border: 1px solid red; */
+  /* padding: 50px;
+  margin: 50px; */
+  width: 200px;
+  height: 200px;
+  outline: 3px solid red;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.box1 {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  /* margin: 50px;
+  padding: 50px; */
+  border: 10px solid purple;
+  /* width- ? 220
+height- 170 ? */
+}
+
+.box2 {
+  background-color: red;
+  box-sizing: border-box;
+  width: 50px;
+  height: 10px;
+  margin: 0px;
+  padding-left: 50px;
+  border: 5px solid purple;
+  /* width- ? 50
+  height- 10 ? */
+}
+
+.box3 {
+  background-color: red;
+  box-sizing: border-box;
+  width: 100px;
+  height: 10px;
+  margin: 0px;
+  padding-left: 50px;
+  padding-right: 10px;
+  padding-top: 30px;
+  border: 5px solid purple;
+  /* width- ?
+  height- ? */
+}
+
+.box3 {
+  background-color: red;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  padding-left: 50px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding: 0px;
+  padding-bottom: 10px;
+  border: 5px solid purple;
+  /* width- ?
+    height- ? */
+  border-radius: 50%;
+}
