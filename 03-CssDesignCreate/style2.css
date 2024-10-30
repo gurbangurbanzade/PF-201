@@ -1,0 +1,60 @@
+body {
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+main {
+  border: 2px solid red;
+}
+h1 {
+  padding: 0px 20px;
+}
+
+header {
+  background-color: orange;
+  /* height: 90px; */
+  padding: 40px 20px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  background-color: orange;
+  padding: 20px;
+}
+p {
+  display: inline-block;
+  /* border: 2px solid blue; */
+  width: 80%;
+}
+.itemBox {
+  /* width: 400px;
+  height: 100px; */
+  /* background-color: red; */
+  display: inline-block;
+  /* border: 2px solid green; */
+  /* margin-left: 100px; */
+}
+
+.item {
+  height: 25px;
+  width: 60px;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+}
+article {
+  background-color: blue;
+  display: inline-block;
+  width: 70%;
+  padding: 20px;
+}
+.sectionItem {
+  background-color: aqua;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+aside {
+  width: 28%;
+  display: inline-block;
+}

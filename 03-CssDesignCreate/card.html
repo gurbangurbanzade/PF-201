@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./card.css" />
+
+    <style>
+      .card {
+        width: 300px;
+        /* height: 600px; */
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+
+        display: flex;
+        gap: 40px;
+
+        /* flex-direction: row; */
+        flex-direction: column;
+
+        justify-content: flex-end;
+        justify-content: space-between;
+
+        align-items: center;
+      }
+
+      .circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: purple;
+      }
+
+      .title {
+        background-color: red;
+      }
+      .desc {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="circle"></div>
+      <p class="title">title</p>
+      <p class="desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti?
+      </p>
+      <button>Submit</button>
+    </div>
+  </body>
+</html>
