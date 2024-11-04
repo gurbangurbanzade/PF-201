@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./flex.css" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .box {
+        width: 100%;
+        height: 600px;
+        background-color: grey;
+        border: 6px solid red;
+
+        display: flex;
+
+        flex-direction: row;
+
+        /* flex-wrap: wrap; */
+        /* flex-wrap: nowrap; */
+
+        /* gap: 10px; */
+        /* row-gap: 20px;
+        column-gap: 30px; */
+
+        /* flex-direction: row-reverse; */
+
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+
+        /* justify-content: flex-start;
+        justify-content: flex-end;
+        justify-content: space-evenly;
+        justify-content: space-between;*/
+        /* justify-content: space-around; */
+        /* justify-content: flex-end; */
+
+        /* align-items: flex-start; */
+        /* align-items: center;
+        align-items: flex-end; */
+        /* align-items: stretch; */
+        /* align-items: flex-start; */
+
+        /* align-content: flex-start;
+        align-content: flex-end;
+        align-content: space-between;
+        align-content: space-around;
+        align-content: space-evenly; */
+      }
+      .item {
+        width: 80px;
+        height: 80px;
+        background-color: yellow;
+        border: 2px solid black;
+      }
+      .item1 {
+        /* order: 5; */
+        /* flex-shrink: 2; */
+        /* flex-basis: 350px; */
+        /* align-self: flex-end; */
+      }
+
+      .item2 {
+        /* order: 4; */
+        /* flex-grow: 1; */
+        /* flex-shrink: 1; */
+        align-self: center;
+      }
+
+      .item5 {
+        /* order: 1; */
+        /* flex-grow: 2; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="item item1">item 1</div>
+      <!-- <div class="item item1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
+        asperiores maiores, praesentium magni aliquam accusantium neque quisquam
+        est reprehenderit ipsam eaque molestiae nisi in optio molestias. Aperiam
+        ab a ipsa omnis, fuga quo eaque repellendus! Facere atque labore quod
+        ducimus quibusdam illum earum ipsum, officia temporibus odio rem
+        reiciendis consectetur aut omnis fuga ullam nulla tempore repudiandae
+        cumque quos ratione autem nostrum reprehenderit! Eveniet est,
+        consequatur accusamus, similique suscipit temporibus architecto modi
+        repellendus sint corrupti delectus eum impedit tenetur laudantium ad
+        nemo quaerat vero itaque velit repellat tempore libero enim ipsum porro?
+        Officia atque eos a, quibusdam dolor iusto explicabo?
+      </div> -->
+
+      <!-- <div class="item item2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </div> -->
+
+      <!-- <div class="item item2">item2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+
+      <div class="item item5">item 5</div> -->
+
+      <!--   <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+      <div class="item">item 5</div>
+      <div class="item">item 5</div> -->
+    </div>
+  </body>
+</html>
