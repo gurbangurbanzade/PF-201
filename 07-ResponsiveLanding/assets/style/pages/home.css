@@ -1,0 +1,41 @@
+.banner {
+  /* background-color: red; */
+  background-image: url("./../../images/static/2024-chevrolet-camaro-zl1-collectors-edition-647e05de95705.jpg");
+  background-size: cover;
+  background-position: center;
+
+  .main {
+    min-height: 570px;
+
+    border: 2px solid red;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+      border: 2px solid green;
+      padding: 32px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .banner {
+    .main {
+      min-height: 710px;
+      .content {
+        .btnBox {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
