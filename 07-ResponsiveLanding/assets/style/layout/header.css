@@ -1,0 +1,93 @@
+header {
+  background: #222831;
+
+  .nav {
+    border: 1px solid red;
+    height: 59px;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    .leftSide {
+      border: 1px solid green;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      .companyName {
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: left;
+        color: #eeeeee;
+      }
+    }
+    .rigthSide {
+      display: flex;
+
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 12px;
+        li {
+          /* border: 1px solid green; */
+          display: flex;
+          align-items: center;
+          padding: 0px 16px;
+          font-family: DM Sans;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 19.2px;
+          text-align: left;
+          color: #eeeeee;
+          cursor: pointer;
+          border: 1px solid #5073aa00;
+          transition: all 0.3s ease-in-out;
+          border-radius: 10px;
+        }
+        li:hover {
+          background-color: #5073aa;
+          border: 1px solid #5073aa;
+          border-radius: 10px;
+        }
+      }
+
+      .burger {
+        display: none;
+      }
+      .btnIcon {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    .nav {
+      .rigthSide {
+        .burger {
+          display: block;
+        }
+        ul {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  header {
+    .nav {
+      .rigthSide {
+        .btnBox {
+          display: none;
+        }
+        .btnIcon {
+          display: block;
+        }
+      }
+    }
+  }
+}
