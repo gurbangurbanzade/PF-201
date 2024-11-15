@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0px 2%;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+.newArrival {
+  background-color: red;
+}
+
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}/*# sourceMappingURL=app.css.map */
