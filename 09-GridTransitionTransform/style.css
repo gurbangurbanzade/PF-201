@@ -1,0 +1,105 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 80px auto;
+  transition-duration: 0.5s;
+  transition-property: all;
+  /* transition-delay: 2s; */
+  transition-timing-function: ease-in-out;
+  border-bottom: 5px solid black;
+  position: relative;
+  /* transform: translateX(50%); */
+  /* transform: translateY(50%); */
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /* transform: translateX(50%);
+  transform: translateY(50%); */
+
+  /* transform: translate(-50%, -50%); */
+}
+
+.box:hover {
+  /* background-color: yellow; */
+  /* border-radius: 50%; */
+  /* transform: scale(2); */
+  /* transform: scaleY(2); */
+  /* transform: scaleX(2); */
+
+  /* transform: rotate(-180deg); */
+  /* transform: rotateY(-45deg); */
+  /* transform: rotateX(-45deg); */
+
+  /* transform: skewX(90deg); */
+}
+
+.container {
+  /* width: 600px; */
+  height: 600px;
+  margin: 0 auto;
+  border: 2px solid green;
+  background-color: gray;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: minmax(100px, 200px) 1fr 1fr;
+
+  /* grid-template-rows: 50px 1fr; */
+  row-gap: 10px;
+  column-gap: 10px;
+  gap: 30px;
+  /* padding: 30px; */
+  /* grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "sidebar content content"
+    "sidebar content content"
+    "sidebar content content"
+    "footer footer footer";
+    */
+}
+
+/* @media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+} */
+
+.item {
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+.item1 {
+  /* grid-area: header; */
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+
+  /* grid-column: 1/4; */
+  /* grid-column: 1 / span2; */
+}
+
+.item2 {
+  /* grid-area: sidebar; */
+}
+.item3 {
+  /* grid-area: footer; */
+}
+
+.item4 {
+  /* grid-area: content; */
+}
