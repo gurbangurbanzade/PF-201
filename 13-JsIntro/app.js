@@ -138,3 +138,5 @@ num += "eli";
 // ==
 
 // ===
+
+console.log(typeof Infinity);
