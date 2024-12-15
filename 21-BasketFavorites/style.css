@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 90vh; */
+
+  section {
+    border: 2px solid black;
+    width: 100%;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .basket {
+  }
+  .searchForm {
+    display: flex;
+    gap: 10px;
+  }
+}
